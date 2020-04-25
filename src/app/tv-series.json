@@ -1,0 +1,110 @@
+[
+    {
+        "name": "The Terror",
+        "season": 3,
+        "network": "AMC",
+        "premiere": "20.10.2019",
+        "genres": [
+            "horror",
+            "drama"
+        ]
+    },
+    {   
+        "name": "The Terror",
+        "season": 2,
+        "network": "AMC",
+        "premiere": "10.01.2018",
+        "genres": [
+            "horror",
+            "drama"
+        ]
+    },
+    {
+        "name": "Better Call Saul",
+        "season": 4,
+        "network": "AMC, Netflix",
+        "premiere": "05.11.2019",
+        "genres": [
+            "crime",
+            "tragedy"
+        ]
+    },
+    {
+        "name": "Better Call Saul",
+        "season": 3,
+        "network": "AMC, Netflix",
+        "premiere": "02.04.2018",
+        "genres": [
+            "crime",
+            "tragedy"
+        ]
+    },
+    {
+        "name": "NBC",
+        "season": 5,
+        "network": "AMC",
+        "premiere": "01.01.2019",
+        "genres": [
+            "drama",
+            "dark comedy"
+        ]
+    },
+    {
+        "name": "Another Day",
+        "season": 1,
+        "network": "CBS",
+        "premiere": "29.08.1978",
+        "genres": [
+            "sitcom"
+        ]
+    },
+    {
+        "name": "SOME",
+        "season": 1,
+        "network": "NBC, ABC",
+        "premiere": "03.03.2015",
+        "genres": [
+            "superhero",
+            "drama"
+        ]
+    },
+    {
+        "name": "SOME",
+        "season": 7,
+        "network": "NBC, ABC",
+        "premiere": "03.03.2015",
+        "genres": [
+            "superhero",
+            "drama"
+        ]
+    },
+    {
+        "name": "XXX",
+        "season": 4,
+        "network": "Youtube TV",
+        "premiere": "02.02.2013",
+        "genres": [
+            "drama",
+            "tragedy"
+        ]
+    },
+    {
+        "name": "The Hitchhiker",
+        "season": 6,
+        "network": "HBO, USA Network",
+        "premiere": "01.01.1983",
+        "genres": [
+            "anthology"
+        ]
+    },
+    {
+        "name": "In Plain Sight",
+        "season": 5,
+        "network": "USA Network",
+        "premiere": "01.06.2008",
+        "genres": [
+            "horror",
+            "drama"
+        ]
+    }
+]

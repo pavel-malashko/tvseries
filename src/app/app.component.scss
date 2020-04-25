@@ -1,0 +1,102 @@
+.tv-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    .sort-inputs {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        font-size: 14px;
+        .input-sort {
+            position: relative;
+            width: 40%;
+            input {
+                background-color: #F2994A;
+                color: white;
+                padding: 8px 10px 8px 15px;
+                width: 100%;
+                font-size: 14px;
+            }
+            button {
+                position: absolute;
+                top: 2px;
+                right: 0;
+                cursor: pointer;
+                outline: 0;
+                background-color: #F2994A;
+                .mat-icon {
+                    color: white;
+                }
+            }
+            input::placeholder {
+                color: white;
+                opacity: 0.9;
+                font-size: 14px;
+            }
+            input:focus {
+                outline: none;
+                box-shadow: 0px 0px 3px #F2994A;
+            }
+        }
+        .select-sort {
+            width: 28%;
+            select {
+                width: 100%;
+                color: #ffffff;
+                font-size: 14px;
+                padding: 6px 16px;
+                border: 1px solid transparent;
+                border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+                cursor: pointer;
+                user-select: none;
+                background-color: #F2994A;
+                outline: none;
+            } 
+        }
+        .clear-btn {
+            background-color: white;
+            cursor: pointer;
+            color: #0000008a;
+        }
+    }
+    .table-tv {
+        width: 80vw;
+        table {
+            width: 100%;
+        }
+        td, th {
+            width: 25%;
+        }
+        .header-sort {
+            background-color: #934dd6;
+            color: white;
+            font-size: 16px;
+        }
+        ::ng-deep .mat-sort-header-arrow {
+            color: #fff;
+        }
+        .names-contaner {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            .container-genres {
+                display: flex;
+                flex-direction: row;
+                margin-top: 5px;
+                .genre-sp {
+                    color: white;
+                    height: 25px;
+                    line-height: 25px;
+                    border-radius: 10px;
+                    margin-right: 10px;
+                    span {
+                        padding: 3px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
